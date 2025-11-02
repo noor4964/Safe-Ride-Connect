@@ -41,3 +41,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase - DO NOT COMMIT SENSITIVE CONFIG
+**/google-services.json
+**/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# API Keys and Secrets
+**/api_keys.dart
+.env
+.env.local
